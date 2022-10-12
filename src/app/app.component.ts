@@ -23,18 +23,14 @@ class Item{
         <div class="form-inline" id=con>
             <div na-appclass="col-md-offset-2 col-md-8" id=div1>
                 <img class="img-responsive" [src] = "!isOpen? 'assets/img/closecookie.png' : nameImg" alt="альтернативный текст" (click)="addItem()">
-                <button class="btn btn-default" (click)="addItemNew(text, price)">ЕЩЁ ПРЕДСКАЗАНИЕ</button>
+            </div>
+            <div id=div2>
+                <button class="btn" (click)="addItemNew(text, price)">ЕЩЁ ПРЕДСКАЗАНИЕ</button>
             </div>
         </div>
     </div>`,
     styleUrls: ['style.css']
 })
-
-
-// <div class="col-md-offset-2 col-md-8">
-// <img class="img-responsive" id="btn" src = 'assets/img/but.png' >
-// </div>
-
 
 export class AppComponent { 
     text: string = "";
@@ -46,7 +42,8 @@ export class AppComponent {
     nameImg: string = 'assets/img/opencookie.png'
     constructor() {
         //  document.body.style.background = "url(bg.jpg);";
-        document.body.style.background = "linear-gradient(#FFFFFF, #FCA737)";
+        //document.body.style.background = "linear-gradient(#FFFFFF, #FCA737)";
+        document.body.style.background = "#e2b170"
       }
 
     names: string[] = 

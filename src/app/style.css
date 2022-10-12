@@ -41,15 +41,21 @@ body {
   {
   /* border: 1px solid Red; */
   background-color: #ffffff;
-  width: 500;
-  height: 500;
+  /* width: 500;
+  height: 500; */
+  width: 40%;
+  height: 45%;
+  /* width: 50vw;
+  height: 50vh; */
   margin: 10%;
-  padding: 10%;
-  padding: 20px;
+  /* padding: 10%;
+  padding: 20px; */
   margin-top: 10px;
   border-radius: 20px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
   }
 
  .colored {
@@ -58,74 +64,46 @@ body {
  }
 
  img {
-  width: 400;
-  height: 400;
+  /* width: 400;
+  height: 400; */
+  max-width: 100%;
+  width: 40%;
+  height: 45%;
   padding: 10%;
-  padding: auto;
+  display: block;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
+  width: 50%;
+  position: relative;
+  /* padding: auto;
+  margin-left: auto;
+  margin-right: auto */
  }
-
- /* .btn {
-  width: 1412;
-  height: 317;
-  padding: auto;
-  margin-left: auto;
-  margin-right: auto
-} */
-
-/* #all {
-  margin-top: 300px;
-  background-color: green;
-} */
 
  #con {
   top: 800px;
-  /* background-color: #ffffff; */
-  padding: auto;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
  }
-/* p{font-size:13px;}
-:host {
-    font-family: Verdana;
-    color: #555;
-} */
 
-button {
+ button {
   border: 1px solid #FCA737;
   background: #FCA737;
   display: block;
   box-sizing: border-box;
-  /* position: fixed; */
-  /* top: 610px; */
-  /* margin-top: 20px; */
-  left: 800px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
-  font-size: large;
+  font-size: 1.6vh;
   color: #ffffff;
-  /* right: 30px; */
-  width: 300;
-  height: 70;
+  width: 30vw;
+  height: 7vh;
+  display: flex;
   border-radius: 20px;
-  margin-left: 100px;
-  margin-right: auto; 
-  /* margin-bottom: 30px; */
-  margin-top: 30;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
-
-.btn {
-  /* top: 710; */
-  margin-bottom: 200;
-  /* background-color: red; */
- }
-
-/* :host /deep/ h1
-{
-  color:greenyellow
-} */
 
 /* задаём глобальные переменные для цветов, в которые будем окрашивать текст */
 :root {
@@ -164,19 +142,6 @@ h1 {
   margin: auto;
   /* переводим все буквы в заглавные */
   text-transform: uppercase;
-
-  /* делаем цветные полосы по тексту */
-  /* background: linear-gradient(219deg, 
-    var(--color-1) 19%, 
-    transparent 19%,transparent 20%, 
-    var(--color-2) 20%, var(--color-2)  39%,
-    transparent 39%,transparent 40%, 
-    var(--color-3) 40%,var(--color-3) 59% ,
-    transparent 59%,transparent 60%, 
-    var(--color-4) 60%, var(--color-4) 79%,
-    transparent 79%, transparent 80%, 
-    var(--color-5) 80%); */
-  /* обрезаем фон по контуру букв */
   background-clip: text;
   -webkit-background-clip: text;
   font-family: "Roboto";
