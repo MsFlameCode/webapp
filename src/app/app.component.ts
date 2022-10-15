@@ -20,14 +20,12 @@ class Item{
         <div class="colored">
             <h1> ПЕЧЕНЬКА </h1>
         </div>
-        <div class="form-inline" id=con>
             <div na-appclass="col-md-offset-2 col-md-8" id=div1>
                 <img class="img-responsive" [src] = "!isOpen? 'assets/img/closecookie.png' : nameImg" alt="альтернативный текст" (click)="addItem()">
             </div>
             <div id=div2>
                 <button class="btn" (click)="addItemNew(text, price)">ЕЩЁ ПРЕДСКАЗАНИЕ</button>
             </div>
-        </div>
     </div>`,
     styleUrls: ['style.css']
 })
@@ -43,7 +41,7 @@ export class AppComponent {
     constructor() {
         //  document.body.style.background = "url(bg.jpg);";
         //document.body.style.background = "linear-gradient(#FFFFFF, #FCA737)";
-        document.body.style.background = "#e2b170"
+        document.body.style.background = "#AAA6A6"
       }
 
     names: string[] = 

@@ -1,55 +1,9 @@
-/* h1, h2 {
-  color:navy;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10em
-} */
-
-/* img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto 
-} */
-
-body {
-  /* background: whatever; */
-  background: linear-gradient(45deg, blue, red);
-}
-
-/* :host {
-  color:navy;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10em;
-  color:green;
-  /* background: linear-gradient(#e66465, #9198e5); 
-  background: linear-gradient(45deg, blue, red);
-  
-} */
-
-/* .panel {
-  background-color: #3366CC;
-  width: 1000;
-  height: 800;
-  margin: 10%;
-  padding: 10%;
-  margin-left: auto;
-  margin-right: auto
- } */
-
  #div1
   {
-  /* border: 1px solid Red; */
-  background-color: #ffffff;
-  /* width: 500;
-  height: 500; */
-  width: 40%;
-  height: 45%;
-  /* width: 50vw;
-  height: 50vh; */
+  background-color: #AAA6A6;
+  width: 500;
+  height: 500;
   margin: 10%;
-  /* padding: 10%;
-  padding: 20px; */
   margin-top: 10px;
   border-radius: 20px;
   margin-left: auto;
@@ -58,26 +12,25 @@ body {
   margin-bottom: 30px;
   }
 
+  #div2
+  {
+  width: 500;
+  height: 500;
+  margin-bottom: 20px;
+  }
+
  .colored {
   margin-bottom: 30px;
-  /* background-color: red; */
  }
 
  img {
-  /* width: 400;
-  height: 400; */
   max-width: 100%;
-  width: 40%;
-  height: 45%;
-  padding: 10%;
+  padding: 3%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 90%;
   position: relative;
-  /* padding: auto;
-  margin-left: auto;
-  margin-right: auto */
  }
 
  #con {
@@ -93,9 +46,9 @@ body {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
-  font-size: 1.6vh;
-  color: #ffffff;
-  width: 30vw;
+  font-size: 3vh;
+  color: #AAA6A6;
+  width: 50vw;
   height: 7vh;
   display: flex;
   border-radius: 20px;
@@ -103,15 +56,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-
-/* задаём глобальные переменные для цветов, в которые будем окрашивать текст */
-:root {
-  --color-1: #186cb8;
-  --color-2: #2a9a9f;
-  --color-3: #f1b211;
-  --color-4: #e83611;
-  --color-5: #f9002f;
 }
 
 /* настройки блока с текстом */
@@ -130,7 +74,7 @@ h1 {
   /* настраиваем внешний вид шрифта */
   font: cursive;
   font-stretch: ultra-expanded;
-  font-size: 4vw;
+  font-size: 12vw;
   font-weight: 900;
 
   /* подстраиваем ширину заголовка под самое длинное слово*/
@@ -147,7 +91,7 @@ h1 {
   font-family: "Roboto";
   font-style: normal;
   /* делаем заголовок прозрачным, чтобы был виден цветной фон */
-  color: #FDC479;
+  color: #FCA737;
   margin-top: 1%;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 900;
